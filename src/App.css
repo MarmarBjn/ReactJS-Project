@@ -1,0 +1,168 @@
+.wrapper {
+  text-align: center;
+  background-image: url("./assets/images/background.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  min-width: 100%;
+  min-height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.inner {
+  margin-top: 5%;
+  text-align: center;
+    padding: 2rem;
+}
+
+.inner h1 {
+  color: #c0bebe;
+  text-shadow: 0 0 5px black;
+}
+
+.inner h2 {
+  color: #888;
+}
+
+.inner p {
+  color: #888;
+  font-size: 15px;
+}
+
+div>img {
+  width: 20%;
+  height: 20%;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+p {
+  color: #d6d6d6;
+  font-size: large;
+}
+
+
+
+
+
+.btn {
+  padding: 0.5rem 2rem;
+  background-color:#282626;
+  border: 1px #7c6f6f dotted;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  text-decoration: ;
+  color:rgb(220, 165, 88);
+  transition: background 500ms ease;
+
+}
+
+.btn:hover {
+  background:#71959a;
+  color:#291e1e;
+  border: 1px #232221 dotted;
+
+}
+
+.contactlink {
+  font-size: larger;
+  font-weight: bold;
+  color: #29595d;
+}
+
+
+.nav {
+  background-color: #282626;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 0;
+  color: #71959a;
+  display: flex;
+  line-height: 40px;
+  margin-right: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+
+
+/* Screen Sizes 700px and Up */
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
+
+
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  font-size: 7rem;
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
+section {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
