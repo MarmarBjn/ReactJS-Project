@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 #adding some new comments for this project
+#adding our changes to the bug_fix branch-just testing
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
